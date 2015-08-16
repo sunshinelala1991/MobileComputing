@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="action_settings">Settings</string>
+    <string name="username_input">username</string>
+    <string name="password_input">password</string>
+    <string name="signin_Btn">Sign in</string>
+    <string name="signup_Btn">Sign up here</string>
+
+
+    <string name="title_activity_main">Main</string>
+
+    <string name="title_activity_signup">Signup</string>
+    <string name="username_regsiter">name</string>
+    <string name="password_regsiter">password</string>
+    <string name="signup_confirm_Btn">Confirm</string>
+
+</resources>

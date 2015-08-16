@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.example.xieminjie.instagram.Signup"
+    android:id="@+id/Signup">
+    <EditText
+        android:id="@+id/username_regsiter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username_regsiter"
+        android:layout_marginTop="170dp"/>
+    <EditText
+        android:id="@+id/password_regsiter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_regsiter"
+        android:layout_below="@+id/username_regsiter"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/signup_confirm_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_regsiter"
+        android:layout_marginTop="50dp"
+        android:background="#4da46d"
+        android:textColor="#ffffff"
+        android:text="@string/signup_confirm_Btn"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>
