@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/signPhoto"
+    tools:context="com.example.xieminjie.instagram.SignPhoto">
+    <include android:id="@+id/login_bar" layout="@layout/login_bar"/>
+    <Button
+        android:id="@+id/signPhoto_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="420dp"
+        android:background="@color/primaryColor"
+        android:textColor="@color/barTitleColor"
+        android:text="@string/signup_confirm_Btn"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+</RelativeLayout>

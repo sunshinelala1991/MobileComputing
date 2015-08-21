@@ -2,22 +2,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:background="#ffffff"
+    android:background="@color/barTitleColor"
     tools:context=".Login">
     <EditText
         android:id="@+id/username_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/username_input"
-        android:layout_marginTop="170dp"/>
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"/>
     <EditText
         android:id="@+id/password_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
         android:hint="@string/password_input"
         android:layout_below="@+id/username_input"
         android:layout_marginTop="10dp"/>
@@ -27,7 +27,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/password_input"
         android:layout_marginTop="50dp"
-        android:background="#4da46d"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@color/primaryColor"
         android:textColor="#ffffff"
         android:text="@string/signin_Btn"
         android:textSize="20sp"

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Instagram</string>
+    <string name="app_name">MyTime</string>
     <string name="action_settings">Settings</string>
     <string name="username_input">username</string>
     <string name="password_input">password</string>
@@ -7,11 +7,17 @@
     <string name="signup_Btn">Sign up here</string>
 
 
-    <string name="title_activity_main">Main</string>
+    <string name="title_activity_main">MyTime</string>
 
-    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_signup">Welcome</string>
     <string name="username_regsiter">name</string>
     <string name="password_regsiter">password</string>
     <string name="signup_confirm_Btn">Confirm</string>
+    <string name="register">Register</string>
+    <string name="email_register">email</string>
+    <string name="title_activity_Signup_photo">Signup_photo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sign_photo">SignPhoto</string>
 
 </resources>
